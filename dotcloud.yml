@@ -1,0 +1,7 @@
+www:
+  type: perl-worker
+  config:
+    perl_version: v5.16.x
+  ports:
+    www: http
+

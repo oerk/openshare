@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title><%= title %></title>
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/turn.min.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/prettify.js"></script>
+  <script type="text/javascript" src="/js/bookshelf.js"></script>
+  <script type="text/javascript" src="/js/zoom.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/books.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css">
+  <link rel="stylesheet" type="text/css" href="/css/prettify-mojo.css">
+  <link rel="stylesheet" type="text/css" href="/css/default.css">
+ </head>
+<body>
+<div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="#">OpenShare</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">index</a></li>
+            <li><a href="#">Perl</a></li>
+            <li><a href="#">linux</a></li>
+            <li><a href="#">command</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">动作</a></li>
+                <li><a href="#">另一个动作</a></li>
+                <li><a href="#">其他动作</a></li>
+                <li class="divider"></li>
+                <li class="nav-header">导航头</li>
+                <li><a href="#">被间隔的链接</a></li>
+                <li><a href="#">另一个链接</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-search pull-left" action="">
+            <input type="text" class="search-query span2" placeholder="search">
+          </form>
+          <ul class="nav pull-right">
+            <li><a href="#">About me</a></li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">下拉 <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+		<li><a href="#">动作</a></li>
+                <li><a href="#">另一个动作</a></li>
+                <li><a href="#">其他动作</a></li>
+                <li class="divider"></li>
+                <li class="nav-header">导航头</li>
+                <li><a href="#">被间隔的链接</a></li>
+                <li><a href="#">另一个链接</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div>
+    </div><!-- /navbar-inner -->
+  </div>
+
+
+<%= content %>
+</body>
+</html>

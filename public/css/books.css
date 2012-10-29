@@ -2,14 +2,14 @@ body{
 	background:#ccc;
 }
 #book{
-	width:800px;
+	width:780px;
 	height:500px;
 	margin:0 auto;
 	position:relative;
 	left:0;
 	-moz-transition:0.3s left;
 	-webkit-transition:0.3s left;
-    transition:0.3s left;
+	transition:0.3s left;
 
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 #book .loader{
-	background-image:url(loader.gif);
+	background-image:url(/img/loader.gif);
 	width:24px;
 	height:24px;
 	display:block;
@@ -40,12 +40,12 @@ body{
 }
 
 #book .data{
-	width:1000px;
+	width:700px;
 	height:580px;
-	text-align:center;
-	font-size:10px;
+	text-align:left;
+	font-size:15px;
 	color:#999;
-	line-height:500px;
+	line-height:80px;
 	overflow:hidden;
 }
 

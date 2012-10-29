@@ -1,9 +1,9 @@
 % layout 'default';
-% title 'Welcome';
-<h2><%= $message %></h2>
+% title 'Books';
 
+<link rel="stylesheet" type="text/css" href="/css/books.css">
 <div id="book">
-	<div class="cover"><h1>The Bible</h1></div>
+	<div class="cover"><h1>$book_name</h1></div>
 </div>
 
 <div id="controls">

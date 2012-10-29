@@ -11,7 +11,7 @@ sub page {
   my $self = shift;
   my $page=$self->param('id');
   $self->render(
-    message => " page $page !");
+    message => " Welcome to the Mojolicious real-time web $page !");
 }
 
 1;

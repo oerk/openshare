@@ -5,6 +5,7 @@ sub showbook{
   my $self = shift;
   $self->render(
     message => 'Welcome to the real-time books!',
+    name =>"Demo book",
     );
 }
 
